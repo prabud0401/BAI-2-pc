@@ -1,0 +1,35 @@
+# Core Dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# spaCy and NLP
+spacy>=3.5.0
+spacy-transformers>=1.2.0
+
+# Deep Learning (for GPU support)
+torch>=1.12.0
+transformers>=4.21.0
+
+# Data Processing
+openpyxl>=3.0.10  # For Excel file support
+xlrd>=2.0.1       # For older Excel files
+
+# CLI and User Interface
+click>=8.0.0
+
+# Utilities
+tqdm>=4.64.0      # Progress bars
+
+# Optional dependencies for enhanced functionality
+jupyter>=1.0.0    # For notebook development/analysis
+matplotlib>=3.5.0 # For visualization
+seaborn>=0.11.0   # For enhanced visualization
+
+# Development and Testing (optional)
+pytest>=7.0.0
+black>=22.0.0     # Code formatting
+flake8>=5.0.0     # Linting
+
+# Model Downloads (run after installation)
+# python -m spacy download en_core_web_trf 
